@@ -22,7 +22,8 @@ setup(name=project,
       url='http://bitbucket.org/sramana/vault',
       license='BSD',
       py_modules=['vault'],
-      install_requires=['keyring', 'scriptine'],
+      # install_requires=['keyring', 'scriptine'],
+      install_requires=['keyring'],
       entry_points = {
           "distutils.commands": [
           "upload_sphinx = sphinx_pypi_upload:UploadDoc",

@@ -41,7 +41,8 @@ def get(service, key, read_only=False):
 
 
 if __name__ == '__main__':
-    import scriptine
-    get_command = get
-    set_command = set
-    scriptine.run()
+    # import scriptine
+    # get_command = get
+    # set_command = set
+    # scriptine.run()
+    pass
