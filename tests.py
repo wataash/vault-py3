@@ -1,4 +1,4 @@
-import vault
+from . import vault
 
 service = 'service_from_vault_test_suite'
 key = 'test_key'

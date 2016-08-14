@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Vault'
-copyright = u'2010, Sramana'
+project = 'Vault'
+copyright = '2010, Sramana'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -178,8 +178,8 @@ htmlhelp_basename = 'Vaultdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Vault.tex', u'Vault Documentation',
-   u'Sramana', 'manual'),
+  ('index', 'Vault.tex', 'Vault Documentation',
+   'Sramana', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -211,6 +211,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'vault', u'Vault Documentation',
-     [u'Sramana'], 1)
+    ('index', 'vault', 'Vault Documentation',
+     ['Sramana'], 1)
 ]

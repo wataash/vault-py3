@@ -35,7 +35,7 @@ def get(service, key, read_only=False):
 
     # If running via command line, print it.
     if __name__ == '__main__' and value:
-        print value
+        print(value)
 
     return value
 
